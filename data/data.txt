@@ -1,0 +1,17 @@
+0.1	    H		        wysookość przekroju [m]
+0.5	    B		        szerokość przekroju [m]
+5	    nH		        liczba węzłów w wysokości
+100	    nB		        liczba węzłów w szerokości
+16	    tempStart		temperatura początkowa w węzłach [°C]
+23      tempIn          temperatura wewnątrz budynku [°C]
+1000 	tau		        czas procesu [s]
+20	    dTau		    krok czasowy [s]
+-5      tempEnvironment	temperatura otoczenia [°C]
+15	    alpha		    współczynnik wymiany ciepła zewnetrzny [W/m^2*K]
+6.96	alphaIn		    współczynnik wymiany ciepła wewnetrzny [W/m^2*K]
+1460	cS		        ciepło właściwe styropianu [J/kg*°C]
+880	    cB		        ciepło właściwe cegły [J/kg*°C]
+0.04	kS(lambda)		współczynnik przewodzenia ciepła styropianu [W/m*°C]
+1.05	kB(lambda)		współczynnik przewodzenia ciepła cegły [W/m*°C]
+20  	rhoS		    gęstość styropianu [kg/m^3]
+1900 	rhoB		    gęstość cegły [kg/m^3]
