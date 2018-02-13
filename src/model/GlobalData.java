@@ -182,7 +182,7 @@ public class GlobalData {
                                 localH.get(j).set(i, localH.get(j).get(i) + alphaIn * localElement.getGaussIntegrationAreaPoints().get(id).node.get(i).get(j)
                                         * localElement.getGaussIntegrationAreaPoints().get(i).node.get(i).get(k) * detJ);//detJ z powierzchni
                         }
-                        if (id == 3)
+                        if (id == 2)
                             localP.set(j, localP.get(j) + alpha * tempEnvironment * localElement.getGaussIntegrationAreaPoints().get(id).node.get(i).get(j) * detJ);
                         else
                             localP.set(j, localP.get(j) + alphaIn * tempIn * localElement.getGaussIntegrationAreaPoints().get(id).node.get(i).get(j) * detJ);
